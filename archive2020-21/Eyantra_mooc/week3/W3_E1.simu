@@ -1,0 +1,81 @@
+<circuit Speed_sps="1000000" Simu_Step_nS="1000" noLinAcc="5" reactStep="50" type="simulide_0.4" animate="0" Speed_per="100">
+
+Unique  Id: Tunnel-1831: 
+Circuit Id: Tunnel-1577
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1831" boardPos="-1e+06,-1e+06" Uid="" y="-400" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1577" Name="Gnd" circPos="0,0" x="388" circRot="6.9529316750833315e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="true"/>
+
+Unique  Id: TextComponent-1586: 
+Circuit Id: TextComponent-1463
+<item itemtype="TextComponent" labelx="-16" hflip="1" vflip="1" objectName="TextComponent-1586" boardPos="-1e+06,-1e+06" y="-440" Show_id="false" Opacity="1" valLabRot="0" labely="-24" Fixed_Width="false" Font="Helvetica [Cronyx]" Margin="2" valLabelx="0" mainComp="false" id="TextComponent-1463" Text="Switch" circPos="0,0" x="320" circRot="6.9532253551213188e-310" valLabely="0" labelrot="0" Font_Size="10" rotation="0" Border="1" boardRot="-1000000"/>
+
+Unique  Id: Tunnel-1582: 
+Circuit Id: Tunnel-1574
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1582" boardPos="-1e+06,-1e+06" Uid="" y="-400" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1574" Name="interrupt_sw" circPos="0,0" x="308" circRot="2.473976580422759e-91" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="false"/>
+
+Unique  Id: Push-1581: 
+Circuit Id: Push-1581
+<item Norm_Close="false" itemtype="Push" labelx="-16" hflip="1" vflip="1" objectName="Push-1581" boardPos="-1e+06,-1e+06" y="-400" Show_id="false" Key="" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Push-1581" circPos="0,0" x="344" circRot="6.9529316750833315e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Poles="1"/>
+
+Unique  Id: Tunnel-1577: 
+Circuit Id: Tunnel-1577
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1577" boardPos="-1e+06,-1e+06" Uid="" y="-272" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1577" Name="Gnd" circPos="0,0" x="284" circRot="6.9529316750833315e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="true"/>
+
+Unique  Id: Tunnel-1574: 
+Circuit Id: Tunnel-1574
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1574" boardPos="-1e+06,-1e+06" Uid="" y="-320" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1574" Name="interrupt_sw" circPos="0,0" x="44" circRot="2.473976580422759e-91" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="false"/>
+
+Unique  Id: Uno-1228: 
+Circuit Id: Arduino Uno
+<item itemtype="Subcircuit" labelx="0" hflip="1" vflip="1" objectName="Uno-1228" boardPos="-1e+06,-1e+06" y="-356" Show_id="true" valLabRot="-90" labely="-20" Logic_Symbol="false" valLabelx="77" mainComp="false" id="Arduino Uno" circPos="0,0" x="88" circRot="1.170226497628843e-316" valLabely="111" BoardId="" labelrot="0" rotation="0" boardRot="-1000000">
+  <mainCompProps Logic_Symbol="false" Init_gdb="false" Program="../../../../../../../../home/happie/Desktop/Eyantra_mooc/week3/Experiment-1/build/Experiment-1.hex" Auto_Load="false" Mhz="16"/>
+ </item>
+
+Unique  Id: AudioOut-1945: 
+Circuit Id: AudioOut-1945
+<item itemtype="AudioOut" labelx="-20" hflip="1" vflip="1" objectName="AudioOut-1945" boardPos="-1e+06,-1e+06" y="-336" Show_id="false" valLabRot="0" labely="-36" valLabelx="0" mainComp="false" id="AudioOut-1945" circPos="0,0" x="364" circRot="1.2461146980886893e-306" valLabely="0" labelrot="0" Impedance="100" rotation="0" boardRot="-1000000" Buzzer="true"/>
+
+Unique  Id: Tunnel-1946: 
+Circuit Id: Tunnel-1946
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1946" boardPos="-1e+06,-1e+06" Uid="" y="-288" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1946" Name="buzzer" circPos="0,0" x="44" circRot="6.3240402667679558e-322" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="false"/>
+
+Unique  Id: Tunnel-1948: 
+Circuit Id: Tunnel-1946
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1948" boardPos="-1e+06,-1e+06" Uid="" y="-344" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1946" Name="buzzer" circPos="0,0" x="328" circRot="6.3240402667679558e-322" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="false"/>
+
+Unique  Id: Tunnel-1952: 
+Circuit Id: Tunnel-1952
+<item itemtype="Tunnel" labelx="-16" hflip="1" vflip="1" objectName="Tunnel-1952" boardPos="-1e+06,-1e+06" Uid="" y="-328" Show_id="false" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Tunnel-1952" Name="Gnd" circPos="0,0" x="328" circRot="6.9531841020525236e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" Rotated="false"/>
+
+Unique  Id: TextComponent-1955: 
+Circuit Id: TextComponent-1463
+<item itemtype="TextComponent" labelx="-16" hflip="1" vflip="1" objectName="TextComponent-1955" boardPos="-1e+06,-1e+06" y="-312" Show_id="false" Opacity="1" valLabRot="0" labely="-24" Fixed_Width="false" Font="Helvetica [Cronyx]" Margin="2" valLabelx="0" mainComp="false" id="TextComponent-1463" Text="Buzzer" circPos="0,0" x="352" circRot="6.9532253551213188e-310" valLabely="0" labelrot="0" Font_Size="10" rotation="0" Border="1" boardRot="-1000000"/>
+
+Unique  Id: Connector-1583: 
+Circuit Id: Connector-1583
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2064" objectName="Connector-1583" boardPos="-1e+06,-1e+06" y="-400" Show_id="false" startpinid="Tunnel-1582-pin" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1583" circPos="0,0" endpinid="Push-1581-pinP0" x="308" circRot="6.9529316753007204e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="308,-400,328,-400"/>
+
+Unique  Id: Connector-1575: 
+Circuit Id: Connector-1575
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2064" objectName="Connector-1575" boardPos="-1e+06,-1e+06" y="-324" Show_id="false" startpinid="Uno-1228-2" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1575" circPos="0,0" endpinid="Tunnel-1574-pin" x="96" circRot="6.9527029710974638e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="96,-324,44,-324,44,-320"/>
+
+Unique  Id: Connector-1578: 
+Circuit Id: Connector-1578
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2065" objectName="Connector-1578" boardPos="-1e+06,-1e+06" y="-276" Show_id="false" startpinid="Uno-1228-GND0" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1578" circPos="0,0" endpinid="Tunnel-1577-pin" x="240" circRot="0" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="240,-276,284,-276,284,-272"/>
+
+Unique  Id: Connector-1832: 
+Circuit Id: Connector-1832
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2065" objectName="Connector-1832" boardPos="-1e+06,-1e+06" y="-400" Show_id="false" startpinid="Push-1581-switch0pinN" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1832" circPos="0,0" endpinid="Tunnel-1831-pin" x="360" circRot="6.9527029710199943e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="360,-400,388,-400"/>
+
+Unique  Id: Connector-1947: 
+Circuit Id: Connector-1947
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2066" objectName="Connector-1947" boardPos="-1e+06,-1e+06" y="-288" Show_id="false" startpinid="Tunnel-1946-pin" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1947" circPos="0,0" endpinid="Uno-1228-6" x="44" circRot="6.9531841022699125e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="44,-288,96,-288,96,-292"/>
+
+Unique  Id: Connector-1949: 
+Circuit Id: Connector-1949
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2066" objectName="Connector-1949" boardPos="-1e+06,-1e+06" y="-344" Show_id="false" startpinid="Tunnel-1948-pin" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1949" circPos="0,0" endpinid="AudioOut-1945-lPin" x="328" circRot="6.9531841022699125e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="328,-344,348,-344"/>
+
+Unique  Id: Connector-1953: 
+Circuit Id: Connector-1953
+<item itemtype="Connector" labelx="-16" hflip="1" vflip="1" enodeid="Circ_eNode-2065" objectName="Connector-1953" boardPos="-1e+06,-1e+06" y="-336" Show_id="false" startpinid="AudioOut-1945-rPin" valLabRot="0" labely="-24" valLabelx="0" mainComp="false" id="Connector-1953" circPos="0,0" endpinid="Tunnel-1952-pin" x="348" circRot="6.9531841022699125e-310" valLabely="0" labelrot="0" rotation="0" boardRot="-1000000" pointList="348,-336,332,-336,332,-328,328,-328"/>
+ 
+</circuit>

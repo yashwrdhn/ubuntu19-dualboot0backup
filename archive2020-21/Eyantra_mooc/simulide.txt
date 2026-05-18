@@ -1,0 +1,3 @@
+
+Locate directory of the SimuliIDE and use this command to convert AppImage into executable. 
+chmod +x ./*.AppImage

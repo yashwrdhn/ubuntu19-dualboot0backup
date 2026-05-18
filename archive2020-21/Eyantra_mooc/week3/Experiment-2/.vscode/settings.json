@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "delay.h": "c",
+        "firebird_simulation.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

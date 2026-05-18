@@ -1,0 +1,35 @@
+#include <iostream>
+#include <array>
+#include <vector>
+using namespace std;
+
+int main(){
+    int size;
+    int temp;
+    cin>>size;
+    int sum,max_sum,max_sum_ultra=0;
+    vector <int> max_sum_arr;
+    vector <int> myarr ;
+    for(int i=0; i<size; ++i){ 
+        cin>>temp;
+        myarr.push_back(temp);}
+        
+    for(int i=0 ; i<myarr.size() ; ++i){
+        max_sum=0;
+        for(int j=0; j<myarr.size()-i;++j){
+            sum=0;
+            for(int k=j; k<i+j+1;++k){
+                sum+=myarr[k];
+            }
+            max_sum = (max_sum < sum) ? sum:max_sum;
+        }
+        max_sum_ultra = (max_sum_ultra < max_sum) ? max_sum:max_sum_ultra;
+        max_sum_arr.push_back(max_sum);
+    }
+    cout<<max_sum_ultra<<"\n";
+    // auto itr = max_sum_arr.begin();
+    // while(itr != max_sum_arr.end()){
+    //     cout<<(*itr++)<<" ";
+    // }
+    return 0;
+}

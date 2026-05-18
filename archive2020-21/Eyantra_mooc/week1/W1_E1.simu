@@ -1,0 +1,47 @@
+<circuit noLinAcc="5" reactStep="50" type="simulide_0.4" Simu_Step_nS="1000" Speed_sps="1000000" Speed_per="100" animate="0">
+
+Unique  Id: Tunnel-1: 
+Circuit Id: Tunnel-1338
+<item x="-20" Name="Buzzer" Rotated="false" Show_id="false" id="Tunnel-1338" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Tunnel-1" y="-240" circRot="7.6086109459551968e-322" valLabelx="0" Uid="" valLabRot="0" mainComp="false" boardRot="-1000000" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Tunnel"/>
+
+Unique  Id: Tunnel-3: 
+Circuit Id: Tunnel-1450
+<item x="276" Name="Gnd" Rotated="true" Show_id="false" id="Tunnel-1450" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Tunnel-3" y="-216" circRot="0" valLabelx="0" Uid="" valLabRot="0" mainComp="false" boardRot="-1000000" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Tunnel"/>
+
+Unique  Id: AudioOut-4: 
+Circuit Id: AudioOut-1452
+<item x="352" Show_id="false" id="AudioOut-1452" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="AudioOut-4" y="-336" circRot="6.9532253551213188e-310" Impedance="100" valLabelx="0" valLabRot="0" mainComp="false" boardRot="-1000000" labelx="-20" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-36" itemtype="AudioOut" Buzzer="true"/>
+
+Unique  Id: Tunnel-5: 
+Circuit Id: Tunnel-1338
+<item x="316" Name="Buzzer" Rotated="false" Show_id="false" id="Tunnel-1338" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Tunnel-5" y="-344" circRot="7.6086109459551968e-322" valLabelx="0" Uid="" valLabRot="0" mainComp="false" boardRot="-1000000" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Tunnel"/>
+
+Unique  Id: Tunnel-6: 
+Circuit Id: Tunnel-1461
+<item x="324" Name="Gnd" Rotated="false" Show_id="false" id="Tunnel-1461" circPos="0,0" hflip="1" labelrot="0" rotation="-90" objectName="Tunnel-6" y="-320" circRot="6.9532253551213188e-310" valLabelx="0" Uid="" valLabRot="0" mainComp="false" boardRot="-1000000" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Tunnel"/>
+
+Unique  Id: TextComponent-7: 
+Circuit Id: TextComponent-1463
+<item x="344" Font="Helvetica [Cronyx]" Show_id="false" id="TextComponent-1463" circPos="0,0" hflip="1" labelrot="0" rotation="0" Border="1" objectName="TextComponent-7" y="-312" circRot="6.9532253551213188e-310" valLabelx="0" valLabRot="0" mainComp="false" boardRot="-1000000" Fixed_Width="false" Font_Size="10" Opacity="1" labelx="-16" boardPos="-1e+06,-1e+06" Margin="2" vflip="1" valLabely="0" labely="-24" itemtype="TextComponent" Text="Buzzer"/>
+
+Unique  Id: Arduino Uno-14: 
+Circuit Id: Arduino Uno-14
+<item x="44" Show_id="true" id="Arduino Uno-14" circPos="0,0" hflip="1" labelrot="0" rotation="0" Logic_Symbol="false" objectName="Arduino Uno-14" y="-304" circRot="2.1362080723786757e-306" valLabelx="0" Program="Experiment-1/build/Experiment-1.hex" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," valLabRot="0" mainComp="false" Auto_Load="false" boardRot="-1000000" labelx="100" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" Mhz="16" labely="-21" Init_gdb="false" itemtype="Arduino" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255"/>
+
+Unique  Id: Connector-10: 
+Circuit Id: Connector-1454
+<item x="316" enodeid="Circ_eNode-15" Show_id="false" id="Connector-1454" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Connector-10" y="-344" circRot="6.9219109224209242e-310" valLabelx="0" pointList="316,-344,336,-344" valLabRot="0" mainComp="false" boardRot="-1000000" startpinid="Tunnel-5-pin" endpinid="AudioOut-4-lPin" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Connector"/>
+
+Unique  Id: Connector-12: 
+Circuit Id: Connector-1462
+<item x="336" enodeid="Circ_eNode-16" Show_id="false" id="Connector-1462" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Connector-12" y="-336" circRot="6.9532253553387077e-310" valLabelx="0" pointList="336,-336,324,-336,324,-320" valLabRot="0" mainComp="false" boardRot="-1000000" startpinid="AudioOut-4-rPin" endpinid="Tunnel-6-pin" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Connector"/>
+
+Unique  Id: Connector-15: 
+Circuit Id: Connector-15
+<item x="-20" enodeid="Circ_eNode-15" Show_id="false" id="Connector-15" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Connector-15" y="-240" circRot="0" valLabelx="0" pointList="-20,-240,52,-240" valLabRot="0" mainComp="false" boardRot="-1000000" startpinid="Tunnel-1-pin" endpinid="Arduino Uno-14-PD6" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Connector"/>
+
+Unique  Id: Connector-16: 
+Circuit Id: Connector-16
+<item x="276" enodeid="Circ_eNode-16" Show_id="false" id="Connector-16" circPos="0,0" hflip="1" labelrot="0" rotation="0" objectName="Connector-16" y="-216" circRot="0" valLabelx="0" pointList="276,-216,196,-216" valLabRot="0" mainComp="false" boardRot="-1000000" startpinid="Tunnel-3-pin" endpinid="Arduino Uno-14-GND2" labelx="-16" boardPos="-1e+06,-1e+06" vflip="1" valLabely="0" labely="-24" itemtype="Connector"/>
+ 
+</circuit>
